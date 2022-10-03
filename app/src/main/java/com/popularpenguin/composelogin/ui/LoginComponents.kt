@@ -62,7 +62,7 @@ private fun LoginTextField(
 ) {
     val keyboardController = LocalSoftwareKeyboardController.current
 
-    TextField(
+    OutlinedTextField(
         modifier = modifier,
         value = text,
         onValueChange = onTextChange,
